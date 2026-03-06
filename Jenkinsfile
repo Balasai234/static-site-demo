@@ -1,5 +1,5 @@
 pipeline {
-    agent {label:'AGENT-1'}
+    agent {label 'AGENT-1'}
 
     environment {
         BUCKET_NAME = "sumit-devops-static-site-2026"
